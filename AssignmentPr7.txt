@@ -1,0 +1,15 @@
+package com.example.sandeep;
+
+public class NaturalNumbersSum {
+
+	public static void main(String[] args) {
+		int i=0,temp=1;
+		System.out.println("First 20 Natural numbers are: ");
+		while(i<=20)
+		{
+			temp=temp+i;
+			System.out.println(temp);
+			i++;
+		}
+	}
+}

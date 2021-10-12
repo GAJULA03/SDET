@@ -1,0 +1,21 @@
+package com.example.sandeep;
+
+import java.util.Scanner;
+
+public class Assign2prg3 {
+	public static boolean containsString( String s1, String s2) {
+	boolean result = false;
+	result = s1.contains(s2);
+	return result;
+	}
+	public static void main(String[] args) 
+	{
+		 Scanner in =new Scanner(System.in);
+		 String str1="A brown fox ran away fast";
+         System.out.println("Please enter the string: ");
+         String str2=in.next();
+         boolean result = containsString(str1, str2);
+         System.out.println(result);
+         in.close();
+         }
+}

@@ -1,0 +1,62 @@
+Program # 1
+1) Current bill
+if House
+Units
+1 - 100 -- >  unit * 3 Rupees  
+100 -200 --> units * 4 Rupees
+if commercial
+1 - 100 -- >  unit * 10 Rupees
+100 -200 --> units * 20 Rupees
+
+Inputs
+1) House / Commercial
+2) Number of unite
+
+Type = House / Commerical
+Units = Provide the units
+
+Ouput
+Final Bill.
+
+Program # 2
+Hotel Menu
+Index Item  Price
+1     Dosa  20
+2     Idli  10
+3     Pongal 30
+ 
+Inputs
+Item No
+Number of Plates
+ 
+Output
+Final Bill.
+ 
+Program # 3
+12 Months and 3 Seasons
+1,2,3,4 - Summer
+5,6,7,8 - Winter
+9,10,11,12 - Rainy
+ 
+Input - Month
+Outpu - Print the Seasoon
+ 
+Program # 4
+Given number is a Prime number or Not?
+ 
+Program # 5
+Sum of first 10 numbers
+Multiplication of first 10 Numbers
+
+Program # 6
+print multiplivcation tables from 1-10
+
+programs #7  
+pyramid
+*
+* *
+* * *
+* * * * 
+* * * * *
+
+Go through Arrays topics

@@ -1,0 +1,28 @@
+package com.example.sandeep;
+import java.util.Iterator;
+import java.util.HashMap;
+import java.util.Set;
+
+
+public class Assign3pr8 {
+
+		  public static void main(String args[]) {
+		    HashMap<String, String> hmap = new HashMap<String, String>(); 
+		    hmap.put("Key1", "Jack");
+		    hmap.put("Key2", "Rock");
+		    hmap.put("Key3", "Rick");
+		    hmap.put("Key4", "Smith");
+		    hmap.put("Key5", "Will");
+
+		    Set<String> keys = hmap.keySet();
+
+		    System.out.println("Set of Keys contains: ");
+
+		    Iterator<String> it = keys.iterator();
+
+		    while(it.hasNext()){
+		       System.out.println(it.next());
+		    } 
+		  }
+
+}

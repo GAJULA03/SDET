@@ -1,0 +1,25 @@
+package com.example.sandeep;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Assign3pr5 {
+
+	public static void main(String[] args) {
+
+		      Set<Integer> hs = new HashSet<Integer>();
+		      hs.add(01);
+		      hs.add(21);
+		      hs.add(32);
+		      hs.add(43);
+		      hs.add(54);
+		      hs.add(38);
+		      hs.add(90);
+		      hs.add(99);
+		      System.out.println("Elements in set = "+hs);
+		      System.out.println("Copying all elements...");
+		      Object[] obArr = hs.toArray();
+		      for (Object ob : obArr)
+		      System.out.println(ob);
+		   }
+}

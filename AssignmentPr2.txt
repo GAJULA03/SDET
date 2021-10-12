@@ -1,0 +1,21 @@
+package com.example.sandeep;
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		 {
+
+		        int num1 = 0, num2 = 1;
+		        System.out.print("Fibonacci Series of "+8+" numbers is :");
+
+		        for (int i = 1; i <= 7; ++i)
+		        {
+		            System.out.print(num1+" ");
+		            int y = num1 + num2;
+		            num1 = num2;
+		            num2 = y;
+		        }
+		    }
+		}
+
+}

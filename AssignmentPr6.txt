@@ -1,0 +1,16 @@
+package com.example.sandeep;
+
+import java.util.Scanner;
+
+public class AreaofTriangle {
+
+	public static void main(String[] args) {
+
+				Scanner sc = new Scanner(System.in); 
+				System.out.println("Please enter the Height & Base of Triangle respectively: ");
+				int Height = sc.nextInt();
+				int Base = sc.nextInt(); 
+				double Area = (0.5*(Base*Height));
+				System.out.println("Area of Traiangle is : " + Area);
+			}
+	}

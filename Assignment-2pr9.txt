@@ -1,0 +1,40 @@
+package com.example.sandeep;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Assign2pr9 {
+
+		void divide() {
+			
+			int x,y,z;
+			try {
+				x=6;
+				y=0;
+				z=x/y;
+				System.out.println(z);
+			}
+			catch(ArithmeticException e)
+			{
+				System.out.println("Exception caught in divide method and rethrow");
+				throw e;
+			}
+		}
+	}
+class test
+{
+	 public static void main(String args[])
+	 {
+		 System.out.println("start of main method");
+		 Assign2pr9 r = new Assign2pr9();
+		 try
+		 {
+			 r.divide();
+		 }
+		 catch(ArithmeticException e)
+		 {
+			 System.out.println("Rethrow Exception caught in Main method");
+			 System.out.println(e);
+		 }
+	 }
+}

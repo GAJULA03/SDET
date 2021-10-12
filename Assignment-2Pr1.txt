@@ -1,0 +1,28 @@
+package com.example.sandeep;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Assign2pr1 {
+
+	public static void main(String[] args) {
+		String String = "devlabsalliancetraining";
+		HashMap<Character, Integer> hashmap = new HashMap<Character, Integer>();
+		for(int i =0; i < String.length(); i++) 
+		{
+			char Ch = String.charAt(i);
+			if(hashmap.containsKey(Ch)) {
+				Integer count = hashmap.get(Ch);
+				count++;	
+				hashmap.replace(Ch, count);
+				}
+			else {
+				hashmap.put(Ch, 1 );
+			}
+			
+			}
+		for(Character Key: hashmap.keySet()) {
+			System.out.println(Key+ "  " + hashmap.get(Key) );
+		}
+		}
+	}

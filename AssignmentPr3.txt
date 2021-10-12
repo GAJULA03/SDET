@@ -1,0 +1,13 @@
+package com.example.sandeep;
+
+import java.util.Arrays;
+
+public class ArraySorting {
+
+	public static void main(String[] args) {
+ 
+		int[] array = {10,28,34,75,45,43,22,567,432,566,0};
+		Arrays.sort(array);
+		System.out.println(Arrays.toString(array));
+	}
+}

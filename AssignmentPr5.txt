@@ -1,0 +1,26 @@
+package com.example.sandeep;
+
+public class PrintPrimeNumbers 
+{
+	public static void main(String[] args) 
+	{
+		int num = 10, count=0;
+		String pr=" ";
+		for (int i = 2; i <= num; i++) 
+		{
+			count = 0;
+			for (int j = 2; j <i ; j++) 
+			{
+				if (i % j == 0) 
+				{
+					count=1;
+					break;
+				}
+			}
+			if(count==0) {
+				pr= pr+i+" ";
+			}
+		}
+		System.out.println("Prime numbers upto 1 to 10 are: " + pr);
+	}
+}
